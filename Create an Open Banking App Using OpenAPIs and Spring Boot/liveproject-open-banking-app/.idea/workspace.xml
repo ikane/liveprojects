@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12e0da6-c9b3-4001-a3be-26027fa02d6e" name="Default Changelist" comment="" />
+    <list default="true" id="c12e0da6-c9b3-4001-a3be-26027fa02d6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/domain/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/web/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/LiveprojectOpenBankingAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/TransactionComponentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/service/TransactionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +48,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -152,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606168737627</updated>
       <workItem from="1606168742364" duration="4028000" />
-      <workItem from="1606664980169" duration="819000" />
+      <workItem from="1606664980169" duration="1243000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <created>1606665118904</created>

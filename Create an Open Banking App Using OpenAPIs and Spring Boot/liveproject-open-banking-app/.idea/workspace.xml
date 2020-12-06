@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12e0da6-c9b3-4001-a3be-26027fa02d6e" name="Default Changelist" comment="" />
+    <list default="true" id="c12e0da6-c9b3-4001-a3be-26027fa02d6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveproject-open-banking-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveproject-open-banking-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/TransactionComponentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liveproject-open-banking-app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/liveproject-open-banking-app-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liveproject.openbankinapp.LiveprojectOpenBankingAppApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liveproject.openbankinapp.LiveprojectOpenBankingAppApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liveproject.openbankinapp.service.TransactionServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.liveproject.openbankinapp.service.TransactionServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.liveproject.openbankinapp.LiveprojectOpenBankingAppApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.liveproject.openbankinapp.LiveprojectOpenBankingAppApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.liveproject.openbankinapp.service.TransactionServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.liveproject.openbankinapp.service.TransactionServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/liveproject/openbankinapp/TransactionComponentTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +53,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Milestone 1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -45,6 +65,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.liveproject.openbankinapp.web" />
       <recent name="com.liveproject.openbankinapp.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.liveproject.openbankinapp.web" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,12 +90,12 @@
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liveproject.openbankinapp.*" />
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp" />
-      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.TransactionComponentTest" />
+      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
+      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionComponentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,13 +105,29 @@
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liveproject.openbankinapp.*" />
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp" />
-      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.TransactionComponentTest" />
+      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
+      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionComponentTest" />
       <option name="METHOD_NAME" value="should_fetch_transactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionComponentTest.testApplicationEndToEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="liveproject-open-banking-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
+      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionComponentTest" />
+      <option name="METHOD_NAME" value="testApplicationEndToEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,6 +175,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TransactionComponentTest" />
+        <item itemvalue="JUnit.TransactionComponentTest.testApplicationEndToEnd" />
         <item itemvalue="JUnit.TransactionComponentTest.should_fetch_transactions" />
         <item itemvalue="JUnit.TransactionControllerIntegrationTest.findTransactions" />
         <item itemvalue="JUnit.TransactionServiceTest.findAllByAccountNumber" />
@@ -154,6 +194,7 @@
       <updated>1606168737627</updated>
       <workItem from="1606168742364" duration="4028000" />
       <workItem from="1606664980169" duration="2027000" />
+      <workItem from="1607243192880" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <created>1606665118904</created>
@@ -180,7 +221,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -29,14 +29,20 @@ public class OBTransactionAdapter {
 	public Transaction toTransaction (OBTransaction6 oBTransaction6) {
 		Transaction transaction = Transaction.builder().build();
 		transaction.setAccountNumber(oBTransaction6.getAccountId());
-		transaction.setType(oBTransaction6.getCreditDebitIndicator().getValue());
-		transaction.setCurrency(oBTransaction6.getCurrencyExchange().getUnitCurrency());
+		transaction.setType(oBTransaction6.getCreditDebitIndicator()!=null ?
+						                    oBTransaction6.getCreditDebitIndicator().getValue() : null);
+		transaction.setCurrency(oBTransaction6.getCurrencyExchange()!=null ?
+						                        oBTransaction6.getCurrencyExchange().getUnitCurrency() : null);
 
-		BigDecimal amount = BigDecimal.valueOf(Double.parseDouble(oBTransaction6.getAmount().getAmount()));
-		BigDecimal exchangeRate = oBTransaction6.getCurrencyExchange().getExchangeRate();
-		transaction.setAmount(amount.multiply(exchangeRate));
+		if(oBTransaction6.getAmount()!=null) {
+			BigDecimal amount = BigDecimal.valueOf(Double.parseDouble(oBTransaction6.getAmount().getAmount()));
+			BigDecimal exchangeRate =
+							oBTransaction6.getCurrencyExchange()!=null ? oBTransaction6.getCurrencyExchange().getExchangeRate(): BigDecimal.ONE;
+			transaction.setAmount(amount.multiply(exchangeRate));
+		}
 
-		transaction.setMerchantName(oBTransaction6.getMerchantDetails().getMerchantName());
+		transaction.setMerchantName(oBTransaction6.getMerchantDetails()!=null ?
+						                            oBTransaction6.getMerchantDetails().getMerchantName(): null);
 
 		return transaction;
 	}

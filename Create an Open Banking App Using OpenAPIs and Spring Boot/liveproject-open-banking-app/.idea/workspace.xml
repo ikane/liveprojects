@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c12e0da6-c9b3-4001-a3be-26027fa02d6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/adapter/OBTransactionAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/repository/InMemoryMerchantDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/repository/MerchantDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/web/ResTransactionApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/web/TransactionApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/web/adapter/OBTransactionAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/web/adapter/OBTransactionAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveproject-open-banking-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveproject-open-banking-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liveproject/openbankinapp/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/service/TransactionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/service/TransactionServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionComponentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionComponentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/liveproject/openbankinapp/web/TransactionControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,6 +70,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OBTransactionAdapterTest.toTransaction">
+  <component name="RunManager" selected="JUnit.TransactionComponentTest.testApplicationEndToEnd">
     <configuration name="OBTransactionAdapterTest.toTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
@@ -90,54 +103,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionComponentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionComponentTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liveproject.openbankinapp.*" />
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp" />
-      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.TransactionComponentTest" />
+      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
+      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionComponentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionComponentTest.should_fetch_transactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionComponentTest.testApplicationEndToEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liveproject.openbankinapp.*" />
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp" />
-      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.TransactionComponentTest" />
-      <option name="METHOD_NAME" value="should_fetch_transactions" />
+      <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
+      <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionComponentTest" />
+      <option name="METHOD_NAME" value="testApplicationEndToEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionControllerIntegrationTest.findTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.liveproject.openbankinapp.web.adapter.*" />
+          <option name="PATTERN" value="com.liveproject.openbankinapp.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.web" />
       <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.web.TransactionControllerIntegrationTest" />
-      <option name="METHOD_NAME" value="findTransactions" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionServiceTest.findAllByAccountNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="liveproject-open-banking-app" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +159,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.liveproject.openbankinapp.service" />
       <option name="MAIN_CLASS_NAME" value="com.liveproject.openbankinapp.service.TransactionServiceTest" />
-      <option name="METHOD_NAME" value="findAllByAccountNumber" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionComponentTest.testApplicationEndToEnd" />
+        <item itemvalue="JUnit.TransactionComponentTest (1)" />
+        <item itemvalue="JUnit.TransactionControllerIntegrationTest" />
+        <item itemvalue="JUnit.TransactionServiceTest" />
         <item itemvalue="JUnit.OBTransactionAdapterTest.toTransaction" />
-        <item itemvalue="JUnit.TransactionComponentTest" />
-        <item itemvalue="JUnit.TransactionComponentTest.should_fetch_transactions" />
-        <item itemvalue="JUnit.TransactionControllerIntegrationTest.findTransactions" />
-        <item itemvalue="JUnit.TransactionServiceTest.findAllByAccountNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +194,7 @@
       <workItem from="1606168742364" duration="4028000" />
       <workItem from="1606664980169" duration="2027000" />
       <workItem from="1607281894056" duration="254000" />
-      <workItem from="1607282159294" duration="4946000" />
+      <workItem from="1607282159294" duration="15304000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <created>1606665118904</created>
@@ -206,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607296632789</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3. add OBTransactionAdapter test">
+      <created>1607298039143</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607298039143</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +247,7 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="update main branch" />
     <MESSAGE value="3. add OBTransactionAdapter adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. add OBTransactionAdapter adapter" />
+    <MESSAGE value="3. add OBTransactionAdapter test" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. add OBTransactionAdapter test" />
   </component>
 </project>

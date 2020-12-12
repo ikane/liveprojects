@@ -1,8 +1,11 @@
 HELP.md
 target/
+**/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+*.jar
+*.lst
 
 ### STS ###
 .apt_generated
@@ -14,6 +17,8 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
+.iml
+.idea
 *.idea
 *.iws
 *.iml
@@ -31,3 +36,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.gradle
+
+"Create an Open Banking App Using OpenAPIs and Spring Boot"/liveproject-open-banking-app/target/

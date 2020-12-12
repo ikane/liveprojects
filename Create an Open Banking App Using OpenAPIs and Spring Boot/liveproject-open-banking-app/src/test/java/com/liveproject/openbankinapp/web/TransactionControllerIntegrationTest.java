@@ -27,9 +27,6 @@ public class TransactionControllerIntegrationTest {
 
     @Test
     void findTransactions() throws Exception {
-        //Transaction transaction = Transaction.builder().accountNumber("12345").build();
-        //when(this.transactionService.findAllByAccountNumber(any())).thenReturn(asList(transaction));
-
         mockMvc.perform(MockMvcRequestBuilders.get("/transactions/12345"))
                 .andExpect(status().isOk());
     }

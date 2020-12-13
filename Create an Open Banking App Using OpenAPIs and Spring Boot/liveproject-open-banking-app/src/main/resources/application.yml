@@ -1,5 +1,5 @@
 ---
-open-banking.baseUri: http://localhost:8080/open-banking/v3.1/aisp
+open-banking.baseUri: http://localhost:8090/open-banking/v3.1/aisp
 
 resilience4j.circuitbreaker:
   configs:

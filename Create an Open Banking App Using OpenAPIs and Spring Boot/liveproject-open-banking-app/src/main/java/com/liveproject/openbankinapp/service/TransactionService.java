@@ -3,7 +3,7 @@ package com.liveproject.openbankinapp.service;
 
 import com.liveproject.openbankinapp.domain.Transaction;
 import com.liveproject.openbankinapp.repository.MerchantDetailsRepository;
-import com.liveproject.openbankinapp.web.TransactionApiClient;
+import com.liveproject.openbankinapp.integration.openbanking.api.TransactionApiClient;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

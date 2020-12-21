@@ -40,3 +40,4 @@ build/
 .gradle
 
 "Create an Open Banking App Using OpenAPIs and Spring Boot"/liveproject-open-banking-app/target/
+.DS_Store

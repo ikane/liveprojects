@@ -6,3 +6,6 @@ https://oss.sonatype.org/content/repositories/snapshots/io/swagger/swagger-codeg
 java -jar swagger-codegen-cli.jar generate -i account-info-openapi.yaml -l java -o client --additional-properties dateLibrary=java8-localdatetime,java8=true
 
 
+## 3. Exchanging Data Securely
+
+[Bank Transaction testnet server] (https://github.com/nathanbcrocker/service-testnet)

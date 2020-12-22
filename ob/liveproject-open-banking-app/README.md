@@ -9,3 +9,15 @@ java -jar swagger-codegen-cli.jar generate -i account-info-openapi.yaml -l java 
 ## 3. Exchanging Data Securely
 
 [Bank Transaction testnet server] (https://github.com/nathanbcrocker/service-testnet)
+
+
+* Get token *
+```
+curl -X POST -H “Authorization: Basic YmV0dGVyLWJhbmtpbmc6N3lyYlI4WHBZNDViY0tQUA==” --data “grant_type=client_credentials” http://localhost:8080/oauth/token
+```
+
+* Call API with token
+```
+cul -X GET -H “Authorization: Bearer ced51608-76c9-4c9f-898f-ed5ba22e05bc” “http://localhost:8080/accounts/1234567/transactions” -H “accept: application/json”
+```
+
